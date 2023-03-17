@@ -1,0 +1,119 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+section {
+    align-items: center;
+    margin: 3px;
+    width: 100%;
+}
+
+header {
+    margin: 3px;
+}
+
+.chicken {
+    padding: 5px;
+    border: 5px solid black;
+    width: 100%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.beef {
+    padding: 5px;
+    border: 5px solid black;
+    width: 100%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.sushi {
+    padding: 5px;
+    border: 5px solid black;
+    width: 100%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.sub1 {
+    float: right;
+    border: 2.5px solid black;
+    margin: -7px -7px 0;
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+    background-color: #FFB6C1;
+    font-weight: bold;
+    font-size: 125%;
+
+}
+
+.sub2{
+    float: right;
+    border: 2.5px solid black;
+    margin: -7px -7px 0;
+    padding: 7px;
+    text-align: center;
+    width: 200px;
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.sub3 {
+    float: right;
+    border: 2.5px solid black;
+    margin: -7px -7px 0;
+    padding: 7px;
+    text-align: center;
+    width: 200px;
+    background-color: rgb(223, 212, 121);
+    font-weight: bold;
+    font-size: 125%;
+}
+
+
+/*mobile version*/
+
+@media (min-width: 768px) and (max-width: 991px){
+    section{
+        width: calc(49%);
+    }
+}
+
+
+/*desktop version*/
+@media (min-width: 992px) {
+    section , header{
+         width: 30%;
+    }
+ }
